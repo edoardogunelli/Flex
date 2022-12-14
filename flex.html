@@ -17,21 +17,23 @@
     </nav>
 
 
+    <article>
 
-      <form action="/action_page.php" method="post">
+    </article>
+
+
+      <form action="/action_page.php" method="post" enctype="multipart/form-data">
         <label class="name" for="name-field">
           Name:
-          <input id="name-field" />
+          <input type="name-field" id="name-field" name="name-field"/>
         </label>
 
         <label class="email" for="email-field">
           Email:
-          <input id="email-field" type="email" />
+        <input type="email-field" id="email-field" name="email-field" />
         </label>
 
-        <button>
-          Submit
-        </button>
+        <button type="submit">Submit</button>
       </form>
 
       <footer class="Footer">
