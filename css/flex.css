@@ -3,7 +3,9 @@
     background-color: white;
     color: blue;
 }
-
+.nav {
+    color: red;
+}
 
 .footer {
     background-color: white;
