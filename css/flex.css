@@ -4,20 +4,13 @@ body {
     color: blue;
 }
 
-.header {
-    background-color: red;
-    height: 100px;
+.My_Portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 20px;
+    height: 200px;
     display: flex;
-    text-align:center;
-    justify-content: space-around;
-}
-
-article {
-    height: 100px;
-    color: blue;
-    display: flex;
-    text-align: center;
-
+    justify-content: space-evenly;   
 }
 
 footer {
@@ -26,8 +19,11 @@ footer {
     justify-content: center;
     background-color: white;
     color: blue;
+    border: 1px solid black;
 }
 
+
 input:invalid {
+    margin-left: 20px;
     border: 2px solid blue;
 }
