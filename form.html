@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<style>
+    body {
+        color: black;
+    }
+
+    input:invalid {
+    border: 2px solid blue;
+    }
+
+    input:focus {
+      background-color: yellow;
+    }
+
+    button {
+      transform: rotateZ(90deg);
+    }
+
+</style>
+
+<body>
+    <form action="/action_page.php" method="post" enctype="multipart/form-data">
+        <label class="name" for="name-field">
+          Name:
+          <input type="name-field" id="name-field" name="name-field" required pattern="[Aa-Zz]{21}"/>
+        </label>
+    
+        <label class="color" for="color-field">
+          Color:
+        <input type="color-field" id="color-field" name="color-field" required />
+        </label>
+
+        <label for="provincia">Provincia:</label>
+            <select id="Provincia" name="Provincia">
+                <option value="La Rioja">La Rioja</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Soria">Soria</option>
+            </select>
+    
+        <label class="provincia" for="provincia-field">
+            Codigo Postal:
+          <input type="codigopostal-field" id="codigopostal-field" name="codigopostal-field" required pattern="[0-9]{5}"/>
+          </label>
+         
+    
+        <button type="submit">Submit</button>
+      </form>
+    
+</body>
+</html>
+
+

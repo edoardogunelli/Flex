@@ -1,13 +1,29 @@
-.body {
-    font-family:Arial, Helvetica, sans-serif ;
+body {
+    font-family:Arial, Helvetica, sans-serif;
     background-color: white;
     color: blue;
-}
-.nav {
-    color: red;
 }
 
-.footer {
+.My_Portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     background-color: white;
     color: blue;
+    border: 1px solid black;
+}
+
+
+input:invalid {
+    margin-left: 20px;
+    border: 2px solid blue;
 }
