@@ -1,0 +1,140 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+.nombre {
+    
+        color:blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{ 
+    color: black;
+    background-color: white;
+   
+  }
+  a:hover {
+    border-bottom: 1px solid;
+    background: #7491ee;
+  }
+  .sobremi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .Fotoperfil{
+    flex-shrink: 0;
+    width: 50px;
+  }
+  #forti {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    animation: FORTI ease 1s 2;
+    display: inline-block;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  
+  }
+  #cisco {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(251, 25, 194);
+    animation: CISCO ease 1s 2;
+    display: inline-block;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  #micro {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(168, 251, 25);
+    animation: MICRO ease 1s 2;
+    display: inline-block;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes FORTI {
+  from{ width: 0px;}
+  }
+     to {
+      width:300px;
+  }
+  @keyframes CISCO {
+  from{ width: 0px;
+  }
+  }
+     to {
+      width:140px;
+  }
+  @keyframes MICRO {
+  from{ width: 0px;}
+  }
+  
+     to {
+      width:300px;
+  }
+.My_Portfolio {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+input:invalid{
+    border: 5px solid red;
+}
+
+button{
+     border: 5px;
+     width: auto;
+     font-size: 25px;
+}
+
+select{
+     border: 5px;
+     width: auto;
+     font-size: 20px;
+}	
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+ 
+
