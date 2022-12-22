@@ -30,7 +30,6 @@ p, h2 {
 }
 
 .column {
-    width: 300px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -52,6 +51,4 @@ button {
 
 .form-part {
     display: flex;
-
-
 }
