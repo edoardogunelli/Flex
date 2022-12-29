@@ -1,69 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/flex.css">
-    <title>Flex</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/flex.css">
+  <title>Flex</title>
 </head>
 
 <body>
-    <section class="portfolio-container">
-      <div class="column">
-        <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-          <h2>Project 1</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
-        <button>Find out more</button>
+  <section class="portfolio-container">
+    <div class="column">
+      <img src="https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68"
+        alt="Project 1">
+      <h2>Project 1</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
+      <button>Find out more</button>
+    </div>
+
+    <div class="column">
+      <img src="https://i.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4"
+        alt="Project 2">
+      <h2>Project 2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
+      <button>Find out more</button>
+    </div>
+
+    <div class="column">
+      <img src="https://i.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA"
+        alt="Project 3">
+      <h2>Project 3</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
+      <button>Find out more</button>
+    </div>
+    <div class="column">
+      <img src="https://i.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU"
+        alt="Project 4">
+      <h2>Project 4</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
+      <button>Find out more</button>
+    </div>
+  </section>
+
+  <form class="form">
+    <h2>Have a web design project in mind?</h2>
+    <p><b>Let's discuss it over a coffee!</b></p>
+
+    <div class="form-part">
+      <div class="left-column">
+        <img src="./img/coffee.jpg" alt="coffee">
       </div>
 
-      <div class="column">
-        <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-          <h2>Project 2</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
-        <button>Find out more</button>
-      </div>
+      <div class="right-column">
 
-      <div class="column">
-        <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-        <h2>Project 3</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
-        <button>Find out more</button>
-      </div>
-      
-      <div class="column">
-        <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-        <h2>Project 4</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatem quia repellat.</p>
-        <button>Find out more</button>
-      </div>
-    </section>
+        <div class="names">
+          <label class="first-name" for="first-name-field">
+            First Name:
+            <input type="first-name-field" id="first-name-field" name="first-name-field" required
+              pattern="[Aa-Zz]{21}" />
+          </label>
 
-    <form>
-      <div class="form-part">
-        <img src="../Flex-1/img/coffee.jpg" alt="">
-      <form action="/action_page.php" method="get">
-        <label class="first-name" for="first-name-field">
-          First Name:
-          <input type="first-name-field" id="first-name-field" name="first-name-field" required pattern="[Aa-Zz]{21}"/>
-        </label>
-
-        <label class="last-name" for="last-name-field">
-          Last Name:
-          <input type="last-name-field" id="last-name-field" name="last-name-field" required pattern="[Aa-Zz]{21}"/>
-        </label>
+          <label class="last-name" for="last-name-field">
+            Last Name:
+            <input type="last-name-field" id="last-name-field" name="last-name-field" required pattern="[Aa-Zz]{21}" />
+          </label>
+        </div>
 
         <label class="email" for="email-field">
           Email:
-        <input type="email-field" id="email-field" name="email-field" required />
+          <input type="email-field" id="email-field" name="email-field" required />
         </label>
 
-        <textarea id="w3review" name="w3review" rows="4" cols="50">
+        <textarea id="textarea" name="textarea" rows="6" cols="50">
           Message
         </textarea>
-        <button type="submit">Submit</button>
-      </div>
-    </form>
 
+        <div class="submit">
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <footer class="footer">
+    <div class="left-footer">
+      <div class="jdoe">JHON</div><b>DOE</b>
+    </div>
+
+    <div class="legal"><b>Legal Notice</b></div>
+
+    <div class="social-media-icons-wrapper">
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+    </div>
+  </footer>
 </body>
+
 </html>
