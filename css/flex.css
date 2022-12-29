@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-* ::before
-*::after {
+*::before *::after {
     box-sizing: border-box;
 }
 
@@ -14,13 +13,15 @@
     background-color: white;
     font-family: sans-serif;
 }
-p, h2 {
-    margin: 20px;
-    padding: 10 20px;
-}
-    
 
-.portfolio-container{
+p,
+h2 {
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.portfolio-container {
     color: black;
     display: flex;
     justify-content: space-between;
@@ -30,18 +31,51 @@ p, h2 {
 }
 
 .column {
-    width: 300px;
     background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
     border: 2px solid black;
-    margin:  10px;    
+    margin: 10px;
 }
 
 img {
     width: 100%;
-    height: 250px;
+    height: 200px;
+}
+
+
+.form {
+    height: 375px;
+    background-color: rgba(208, 228, 238, 0.473);
+}
+
+.form-part {
+    display: flex;
+    margin: 40px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+#left-column {
+    width: 150px;
+    height: 150px;
+}
+
+.right-column>label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.names {
+    margin: 10px;
+}
+
+#textarea {
+    margin: 10px;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 button {
@@ -50,8 +84,41 @@ button {
     width: 100px;
 }
 
-.form-part {
+.submit {
+    margin: 10px;
+}
+
+.submit>.btn {
+    width: 100%;
+    height: 25px;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 100px;
+    background-color: white;
     display: flex;
+    justify-content: space-between;
+}
 
+.left-footer {
+    margin: 10px;
+    font-family: sans-serif;
+    display: flex;
+}
 
+.jdoe {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    height: 20px;
+    width: 55px;
+}
+
+.social-media-icons-wrapper {
+    margin: 10px;
+}
+
+.social-media-icons-wrapper>a {
+    margin: 5px;
 }
